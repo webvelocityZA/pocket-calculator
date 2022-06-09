@@ -1,6 +1,20 @@
 # Pocket Calculator
 
+## Version Number [5b8d0fd276b6d288905ed2f63a934e057e8feca2]
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
+
+## Requirements
+This project requires the following dependencies:
+[nodeJS](https://nodejs.org/en/) version 12.x.x,
+[npm](https://www.npmjs.com/) version 5.x.x,
+[Angular CLI](https://angular.io/start)
+[Tailwind CSS](https://tailwindcss.com/)
+
+
+## Installation
+To install the project, clone the repository and run the following command:
+`npm install` on the command line.
 
 ## Development server
 

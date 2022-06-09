@@ -58,6 +58,12 @@ export class CalculatorComponent implements OnInit {
     this.equation = '';
   }
 
+  del = () => {
+    // FIXME: fix logic delete is not working properly
+    // this.equation = this.equation.slice(0, -1);
+    // this.display = this.display.slice(0, -1);
+  }
+
 
   results = () => {
     try {

@@ -1,5 +1,5 @@
 <div class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-[#000000] border rounded-lg lg:w-2/6 md:w-3/6 sm:w-4/6">
-  <div>
+  <div class="px-4">
     <div class="pt-16 p-5 pb-0 text-white text-right text-3xl bg-[#000000]" id="display">{{display || 0}}</div>
     <div class="flex items-stretch bg-[#000000] h-24">
       <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
@@ -138,7 +138,7 @@
     </div>
 
 
-    <div class="flex items-stretch bg-[#000000] h-24 mb-4">
+    <div class="flex items-stretch  bg-[#000000] h-20 mb-4">
 
 
       <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
@@ -156,6 +156,16 @@
           .
         </button>
       </div>
+
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <button
+          class="rounded-full h-20 w-20 flex items-center bg-orange-500 justify-center shadow-lg hover:border-gray-500 focus:outline-none"
+          value="=" (click)="del()">
+          DEL
+        </button>
+      </div>
+
+
 
       <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
         <button
